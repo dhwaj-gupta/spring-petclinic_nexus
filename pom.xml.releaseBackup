@@ -3,32 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>4.0.3-SNAPSHOT</version>
+  <version>4.0.0-SNAPSHOT</version>
 <scm>
     <connection>scm:git:https://github.com/dhwaj-gupta/spring-petclinic.git</connection>
     <developerConnection>scm:git:https://github.com/dhwaj-gupta/spring-petclinic.git</developerConnection>
     <url>https://github.com/dhwaj-gupta/spring-petclinic</url>
-  <tag>HEAD</tag>
-  </scm>
-<distributionManagement>
-    <repository>
-        <id>nexus</id>
-        <name>Releases</name>
-        <url>http://localhost:8090/repository/maven-releases/</url>
-    </repository>
-    <snapshotRepository>
-        <id>nexus</id>
-        <name>Snapshots</name>
-        <url>http://localhost:8090/repository/maven-snapshots/</url>
-    </snapshotRepository>
-</distributionManagement>
-<!-- <servers>
-    <server>
-        <id>releases</id>
-        <username>admin</username>
-        <password>Chph#1315</password>
-    </server>
-</servers> -->
+</scm>
+
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
@@ -43,7 +24,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <!-- Important for reproducible builds. Update using e.g. ./mvnw versions:set -DnewVersion=... -->
-    <project.build.outputTimestamp>2024-02-23T04:27:20Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2024-02-23T04:22:13Z</project.build.outputTimestamp>
 
     <!-- Web dependencies -->
     <webjars-bootstrap.version>5.3.2</webjars-bootstrap.version>
